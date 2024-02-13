@@ -1,0 +1,118 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* .container{
+  max-width: 1300px;
+  width: 100%;
+  padding: 2rem;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: 0.152rem;
+  text-transform: uppercase;
+}
+
+.container >form {
+width: 50%;
+display: flex;
+gap: 5px;
+margin: 2rem auto;
+}
+
+.container >form >input {
+  width: 80%;
+  padding: 1rem;
+  border: 1px solid rgba(149,149,1490.695);
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 1.2rem;
+}
+ */
+
+
+
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.todoContainer {
+  margin-top: 20px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  margin-left: auto;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.text-crossed {
+  text-decoration: line-through;
+}
+
+  
