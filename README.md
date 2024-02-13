@@ -2,7 +2,7 @@
 
 A simple Todo App implemented in TypeScript with HTML and CSS for the front end.
 
-![Todo App Screenshot](./screenshot.png)
+# Live Link :- https://shiny-sfogliatella-bce8d9.netlify.app/
 
 ## Table of Contents
 
